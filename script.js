@@ -23,13 +23,13 @@ const addNewNote = (Text = "") => {
 
     const HtmlData = `
     
-        <div class="operation" >
+    <div class="operation" style="text-align:right;" >
         <button class="edit"><i class="fas fa-edit"></i></button>
         <button class="delete"><i class="fas fa-trash-alt"></i></button>
     </div>
    
     <div class="main ${Text? "": "hidden"}"></div>
-    <textarea placeholder="Note Here" class="${Text ? "hidden": "" }" ></textarea> `;
+    <textarea class="${Text ? "hidden": "" }" ></textarea> `;
 
     Note.insertAdjacentHTML('beforeend', HtmlData)
 
