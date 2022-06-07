@@ -8,11 +8,15 @@
 
 body{
     background-color: #b5ddea;
-    background-image: url("https://i.pinimg.com/originals/d7/57/e9/d757e9a82c599ab4634ebc5f20dbc82f.gif");
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/000b3598212243.5ed7268f8cfa2.gif");
     font-family: var(--poppinFont);
+    width: 100%;
+    height: auto;
 
 }
-
+img {
+    
+  }
 .heading h1{
     line-height:5.8rem;
     margin-left: 2rem;
